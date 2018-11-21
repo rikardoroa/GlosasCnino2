@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane id="mipane" prefHeight="734.0" prefWidth="1523.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ConexionController">
+   <children>
+      <Button fx:id="btn" layoutX="168.0" layoutY="61.0" mnemonicParsing="false" onMouseClicked="#cargarconexion" prefHeight="46.0" prefWidth="155.0" text="PROBAR CONEXION" />
+      <Button fx:id="mtn" layoutX="165.0" layoutY="554.0" mnemonicParsing="false" onMouseClicked="#cargarregistro" prefHeight="46.0" prefWidth="155.0" text="GRABAR REGISTRO" />
+      <Button fx:id="lmp" layoutX="1017.0" layoutY="692.0" mnemonicParsing="false" onAction="#borrarcasillatexto" prefHeight="25.0" prefWidth="150.0" text="REESTABLECER" />
+      <Button fx:id="mts" layoutX="471.0" layoutY="485.0" mnemonicParsing="false" onMouseClicked="#mostrartodo" prefHeight="46.0" prefWidth="155.0" text="VISUALIZAR DATOS" />
+      <TextField id="numfacvista" fx:id="buscarfactura" layoutX="75.0" layoutY="692.0" prefHeight="25.0" prefWidth="149.0" />
+      <Button fx:id="bqdfac" layoutX="246.0" layoutY="692.0" mnemonicParsing="false" onAction="#buscanfactura" prefHeight="25.0" prefWidth="242.0" text="BUSCAR POR NUMERO DE FACTURA" />
+      <Label id="mes" layoutX="35.0" layoutY="245.0" prefHeight="17.0" prefWidth="55.0" text="MES" />
+      <Button fx:id="botonborrar" layoutX="674.0" layoutY="692.0" mnemonicParsing="false" onAction="#borraregistrofactura" prefHeight="25.0" prefWidth="155.0" text="BORRAR REGISTRO" />
+      <TextField id="uno" fx:id="borrar" layoutX="508.0" layoutY="692.0" prefHeight="17.0" prefWidth="135.0" />
+      <DatePicker id="fecha1" fx:id="mifecha" layoutX="169.0" layoutY="178.0" prefHeight="25.0" prefWidth="150.0" />
+      <Label id="fecharecibido" layoutX="32.0" layoutY="182.0" prefHeight="17.0" prefWidth="117.0" text="FECHA RECIBIDO" />
+      <MenuBar fx:id="menucombo" layoutY="-1.0" prefHeight="31.0" prefWidth="96.0">
+         <menus>
+            <Menu id="menuagregar" mnemonicParsing="false" text="AGREGAR">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#cargavistauno" text="Nueva Entidad" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <MenuBar fx:id="menudos" layoutX="96.0" layoutY="-1.0" prefHeight="31.0" prefWidth="107.0">
+         <menus>
+            <Menu id="menuactualizar" mnemonicParsing="false" text="ACTUALIZAR">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#vistados" text="Actualiza Datos" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Label id="nit" layoutX="34.0" layoutY="310.0" prefHeight="17.0" prefWidth="29.0" text="NIT" />
+      <Label id="entidad" layoutX="33.0" layoutY="368.0" prefHeight="17.0" prefWidth="84.0" text="ENTIDAD" />
+      <Label id="numerofactura" layoutX="30.0" layoutY="430.0" prefHeight="17.0" prefWidth="131.0" text="NUMERO DE FACTURA" />
+      <TextField id="nfacvista" fx:id="numerofactura" layoutX="170.0" layoutY="426.0" />
+      <Label id="valorglosa" layoutX="350.0" layoutY="182.0" prefHeight="17.0" prefWidth="96.0" text="VALOR GLOSA" />
+      <TextField id="valglosavista" fx:id="valorglosa" layoutX="474.0" layoutY="178.0" />
+      <Label id="tipobjecion" layoutX="347.0" layoutY="245.0" text="TIPO DE OBJECION" />
+      <DatePicker id="fecha2" fx:id="mifent" layoutX="475.0" layoutY="306.0" prefHeight="25.0" prefWidth="150.0" />
+      <Label id="fechaentrega" layoutX="350.0" layoutY="310.0" text="FECHA DE ENTREGA" />
+      <TextField id="usuvista" fx:id="usuario" layoutX="474.0" layoutY="367.0" prefHeight="25.0" prefWidth="150.0" />
+      <Label id="usuario" layoutX="350.0" layoutY="371.0" prefHeight="17.0" prefWidth="69.0" text="USUARIO" />
+      <Label id="observacion" layoutX="350.0" layoutY="430.0" prefHeight="17.0" prefWidth="96.0" text="OBSERVACIÓN" />
+      <TextField id="observavista" fx:id="observacion" layoutX="471.0" layoutY="426.0" prefHeight="25.0" prefWidth="155.0" />
+      <AnchorPane layoutX="651.0" layoutY="76.0" minHeight="0.0" minWidth="0.0" prefHeight="548.0" prefWidth="853.0">
+         <children>
+            <TableView fx:id="tablaglosa" prefHeight="548.0" prefWidth="853.0">
+               <columns>
+                  <TableColumn fx:id="idg" prefWidth="75.0" text="ID" />
+                  <TableColumn fx:id="fecharec" prefWidth="110.0" text="FECHA RECIBIDO" />
+                  <TableColumn fx:id="mmes" prefWidth="75.0" text="MES" />
+                  <TableColumn fx:id="minit" prefWidth="75.0" text="NIT" />
+                  <TableColumn fx:id="mientidad" prefWidth="75.0" text="ENTIDAD" />
+                  <TableColumn fx:id="numfac" prefWidth="103.0" text="N° FACTURA" />
+                  <TableColumn fx:id="valglosa" prefWidth="109.0" text="VALOR GLOSA" />
+                  <TableColumn fx:id="tipoobj" prefWidth="96.0" text="TIPO OBJECION" />
+                  <TableColumn fx:id="fechaent" prefWidth="101.0" text="FECHA ENTREGA" />
+                  <TableColumn fx:id="usu" prefWidth="75.0" text="USUARIO" />
+                  <TableColumn fx:id="obser" prefWidth="110.0" text="OBSERVACION" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <ComboBox fx:id="mes" layoutX="169.0" layoutY="241.0" onAction="#llenadocombobox" prefWidth="150.0" />
+      <ComboBox fx:id="entidad" layoutX="168.0" layoutY="364.0" prefWidth="150.0" />
+      <ComboBox id="tipobjevista" fx:id="tipoobjecion" layoutX="473.0" layoutY="241.0" onAction="#llenadocombobox4" prefWidth="150.0" />
+      <Button fx:id="exporta" layoutX="849.0" layoutY="692.0" mnemonicParsing="false" onMouseClicked="#exportaexcel" prefHeight="25.0" prefWidth="149.0" text="EXPORTAR A EXCEL" />
+      <TextField fx:id="nitb" layoutX="169.0" layoutY="306.0" onKeyReleased="#validanit" />
+      <Button id="valnit" fx:id="prueba" layoutX="165.0" layoutY="485.0" mnemonicParsing="false" onAction="#llenadocombobox3" prefHeight="46.0" prefWidth="155.0" text="VALIDAR NIT" />
+   </children>
+</Pane>

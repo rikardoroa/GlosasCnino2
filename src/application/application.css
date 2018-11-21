@@ -1,0 +1,1103 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#exporta{
+	 
+	
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 2 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+     -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+#exporta{
+
+ -fx-graphic: url('iconos/excel.png')
+ }
+
+
+
+#mipane{
+	
+	-fx-background-color:linear-gradient( to left bottom, #94ccee, #68ccee)
+}
+
+
+#mianchorpane{
+	
+	-fx-background-color:linear-gradient( to left bottom, #94ccee, #68ccee)
+	
+}
+
+
+#botonborrar{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 2 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#botonborrar{
+
+ -fx-graphic: url('iconos/borrar.jpg')
+ }
+
+
+#bqdfac{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+       -fx-padding: 10 2 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+
+}
+
+
+#bqdfac{
+	 -fx-graphic: url('iconos/buscaf.png')
+	
+}
+
+
+
+
+#lmp{
+	-fx-text-fill: white;
+    -fx-border-color: rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 2 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+   -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+#lmp{
+	 -fx-graphic: url('iconos/restablecer.jpg')
+}
+
+#mtn{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 2 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#mtn{
+	
+	-fx-graphic: url('iconos/guardar.png')
+}
+
+
+#btn{
+    -fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 2 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+	
+}
+
+
+#btn{
+	-fx-graphic: url('iconos/probarconexion.png')
+	
+}
+
+#mts{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 2 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#mts{
+	-fx-graphic: url('iconos/mostrar.png')
+	
+}
+
+#valnit{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 2 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+
+#valnit{
+	-fx-graphic: url('iconos/validarnit.jpg')
+	
+}
+
+
+
+#fecharecibido{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+
+
+#nit{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#entidad{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#numerofactura{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#valorglosa{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#tipobjecion{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#fechaentrega{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#usuario{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#observacion{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#mes{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+
+#tipobjevista{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#idg{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#fecharec{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#mmes{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#minit{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#mientidad{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#numfac{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#valglosa{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#tipoobj{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#fechaent{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#usu{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#obser{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+
+
+
+#mianchonpaneact{
+	
+	-fx-background-color:linear-gradient( to left bottom, #94ccee, #68ccee)
+	
+}
+
+#entidadact{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#nitact{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#fechaentregact{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#fecharecibidoact{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#numfact{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#tipobjecionact{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#mesact{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#valorglosaact{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#usuarioact{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#observacionact{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+#limpiartextoboton{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 7 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+#limpiartextoboton{
+	 -fx-graphic: url('iconos/restablecer.jpg')	
+}
+
+#numerofacturabotom{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+     -fx-padding: 10 7 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+#numerofacturabotom{
+ -fx-graphic: url('iconos/buscaf.png')	
+	
+}
+
+#actualizardatosboton{
+    -fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 7 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+#actualizardatosboton{
+	 -fx-graphic: url('iconos/actualizar.png')	
+	
+}
+
+ #numfacbusqueda{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 13 13 13 13;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+ #numfacbusqueda:hover{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 13 13 13 13;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+#numfactua{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+	
+}
+
+#numfactua:hover{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#Nitt{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#Nitt:hover{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+   -fx-padding: 4 0 0 10;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#Nombreentidad{
+	
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#Nombreentidad:hover{
+	
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+#tipoobjactau{
+	 -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#tipoobjactau:hover{
+	 -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#mesactua{
+	 -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+#mesactua:hover{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+#valglosaactua{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#valglosaactua:hover{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+	
+}
+
+#usuaactua{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+	
+}
+
+#usuaactua:hover{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+	
+}
+
+
+#obseractua{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#obseractua:hover{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+.date-picker-popup{
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+#fecha1.date-picker{
+	
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+   -fx-font-size:12px;
+}
+
+
+#fecha1 .date-cell{
+	
+	
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+
+
+
+#fecha1 .date-cell:hover{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color: #ccffff;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+
+#fecha2.date-picker{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+
+#fecha2 .date-cell{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+#fecha2 .date-cell:hover{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color: #ccffff;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+
+
+ #numfacvista{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 10 22 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+ #numfacvista:hover{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 10 22 10;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+#uno{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 10 22 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+ #uno:hover{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 10 22 10;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+
+
+#fechaeg.date-picker{
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+
+#fechaeg .date-cell{
+	
+	
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+
+
+
+#fechaeg .date-cell:hover{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color: #ccffff;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+
+
+#fecharecg.date-picker{
+	
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+
+#fecharecg .date-cell{
+	
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+
+
+
+#fecharecg .date-cell:hover{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color: #ccffff;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:12px;
+}
+
+
+
+#nfacvista{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 17;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#nfacvista:hover{
+	 -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 17;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#valglosavista{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 15;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#valglosavista:hover{
+	 -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 15;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#usuvista{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 3;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#usuvista:hover{
+	 -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 3;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+#observavista{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#observavista:hover{
+	 -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+
+#menudos{
+	-fx-border-color:  rgb(238, 201, 91);
+   	-fx-padding: 2 0 8 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+
+#menuactualizar{
+	
+	-fx-padding: 2 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:none;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#menucombo{
+	-fx-border-color:  rgb(238, 201, 91);
+   	-fx-padding: 2 0 8 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#menuagregar{
+	-fx-padding: 2 0 0 10;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:none;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+
+
+
+.menu-bar .label {
+	
+   -fx-text-fill:black;
+}
+
+#entidadagrega{
+-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 3;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;	
+}
+
+#entidadagrega:hover{
+	 -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#verfac{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 2 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;	
+}
+
+#nitb{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 17;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#nitb:hover{
+	 -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 17;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#nitagrega{
+	-fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 3;
+    -fx-background-color:#fefae6;
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#nitagrega:hover{
+	 -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 4 0 0 10;
+    -fx-background-color:linear-gradient(to bottom, #fefae6 15%, #ffff99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#botonagregaent{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 2 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;	
+}
+
+
+#botonagregaent{
+	-fx-graphic: url('iconos/guardar.png')	
+}
+
+#mipaneentidad{
+	-fx-background-color:linear-gradient( to left bottom, #94ccee, #68ccee)	
+}
+
+#mianchorpaneentidad{
+	-fx-background-color:linear-gradient( to left bottom, #94ccee, #68ccee)	
+}
+
+#entidadcarga{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+	
+}
+
+#nitcarga{
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+		
+}
+
+
+#reesentidad{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 2 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;	
+}
+
+#reesentidad{
+	-fx-graphic: url('iconos/restablecer.jpg')	
+}
+
+
+#mostrarentidad{
+	-fx-text-fill: white;
+    -fx-border-color:  rgb(238, 201, 91);
+    -fx-border-radius: 5;
+    -fx-padding: 10 2 10 -2;
+    -fx-background-color:linear-gradient(to bottom, #ffffcc 15%, #ffcc99 91%);
+    -fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px;
+}
+
+#mostrarentidad{
+	-fx-graphic: url('iconos/mostrar.png')
+}
+
+
+
+
+
+#Miid{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+
+
+#Mientidad{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}
+
+
+#Minit{
+	-fx-text-fill:black;
+    -fx-font-family: Oswald;
+    -fx-font-size:15px
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="mianchonpaneact" prefHeight="557.0" prefWidth="945.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <TextField fx:id="Nombreentidad" layoutX="190.0" layoutY="78.0" />
+      <TextField fx:id="Nitt" layoutX="190.0" layoutY="157.0" />
+      <TextField id="numfactua" fx:id="numfac" layoutX="190.0" layoutY="408.0" />
+      <TextField id="tipoobjactau" fx:id="tipoobjecion" layoutX="511.0" layoutY="78.0" />
+      <TextField id="mesactua" fx:id="mes" layoutX="511.0" layoutY="157.0" />
+      <TextField id="valglosaactua" fx:id="valorfact" layoutX="511.0" layoutY="236.0" />
+      <TextField id="usuaactua" fx:id="usuario" layoutX="511.0" layoutY="319.0" />
+      <TextField id="obseractua" fx:id="observacion" layoutX="511.0" layoutY="408.0" />
+      <TextField fx:id="numfacbusqueda" layoutX="29.0" layoutY="485.0" prefHeight="25.0" prefWidth="185.0" />
+      <Button id="numerofacturabotom" fx:id="buscanumfac" layoutX="238.0" layoutY="485.0" mnemonicParsing="false" onAction="#seleccionaregistrosparaactualizar" prefHeight="25.0" prefWidth="229.0" text="BUSCAR NUMERO DE FACTURA" />
+      <Button id="actualizardatosboton" fx:id="actualiza" layoutX="511.0" layoutY="485.0" mnemonicParsing="false" onAction="#actualizardatos" prefHeight="25.0" prefWidth="177.0" text="ACTUALIZAR DATOS" />
+      <Label id="entidadact" layoutX="48.0" layoutY="90.0" prefHeight="17.0" prefWidth="80.0" text="ENTIDAD" />
+      <Label id="nitact" layoutX="48.0" layoutY="169.0" prefHeight="17.0" prefWidth="35.0" text="NIT" />
+      <Label id="fechaentregact" layoutX="55.0" layoutY="323.0" text="FECHA DE ENTREGA" />
+      <Label id="fecharecibidoact" layoutX="54.0" layoutY="232.0" text="FECHA RECIBIDO" />
+      <Label id="numfact" layoutX="48.0" layoutY="412.0" text="NUMERO DE FACTURA" />
+      <Label id="tipobjecionact" layoutX="383.0" layoutY="82.0" text="TIPO DE OBJECION" />
+      <Label id="mesact" layoutX="383.0" layoutY="161.0" text="MES" />
+      <Label id="valorglosaact" layoutX="381.0" layoutY="240.0" text="VALOR GLOSA" />
+      <Label id="usuarioact" layoutX="382.0" layoutY="323.0" text="USUARIO" />
+      <Label id="observacionact" layoutX="383.0" layoutY="412.0" text="OBSERVACION" />
+      <DatePicker id="fechaeg" fx:id="fecentrega" layoutX="190.0" layoutY="319.0" prefHeight="25.0" prefWidth="149.0" />
+      <DatePicker id="fecharecg" fx:id="fecrecibido" layoutX="190.0" layoutY="228.0" prefHeight="25.0" prefWidth="149.0" />
+      <Button id="limpiartextoboton" fx:id="limpiartodo" layoutX="733.0" layoutY="485.0" mnemonicParsing="false" onAction="#limpiarcasillas" prefHeight="25.0" prefWidth="158.0" text="REESTABLECER" />
+   </children>
+</AnchorPane>

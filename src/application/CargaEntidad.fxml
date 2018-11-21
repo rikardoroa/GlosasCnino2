@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane id="mipaneentidad" prefHeight="504.0" prefWidth="1059.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <Button id="botonagregaent" fx:id="AgregarCombo" layoutX="161.0" layoutY="239.0" mnemonicParsing="false" onAction="#insertardatosentidad" prefHeight="25.0" prefWidth="158.0" text="GRABAR " />
+      <TextField id="entidadagrega" fx:id="DatosEntidad" layoutX="161.0" layoutY="125.0" prefHeight="25.0" prefWidth="158.0" />
+      <Label id="entidadcarga" layoutX="20.0" layoutY="129.0" prefHeight="17.0" prefWidth="123.0" text="NOMBRE ENTIDAD" />
+      <TextField id="nitagrega" fx:id="NitEntidad" layoutX="161.0" layoutY="184.0" prefHeight="25.0" prefWidth="158.0" />
+      <Label id="nitcarga" layoutX="20.0" layoutY="188.0" prefHeight="17.0" prefWidth="101.0" text="NIT" />
+      <Button id="reesentidad" fx:id="limpiarcasillaentidad" layoutX="161.0" layoutY="311.0" mnemonicParsing="false" onAction="#limpiarcasillasentidad" prefHeight="25.0" prefWidth="158.0" text="REESTABLECER" />
+      <TableView fx:id="tablaentidad" layoutX="390.0" layoutY="26.0" prefHeight="433.0" prefWidth="634.0">
+        <columns>
+          <TableColumn fx:id="Miid" prefWidth="144.0" text="ID" />
+          <TableColumn fx:id="Mientidad" prefWidth="268.0" text="NOMBRE ENTIDAD" />
+            <TableColumn fx:id="Minit" prefWidth="221.0" text="NIT" />
+        </columns>
+      </TableView>
+      <Button fx:id="mostrarentidad" layoutX="161.0" layoutY="386.0" mnemonicParsing="false" onAction="#seleccionaregistrostablaentidad" prefHeight="25.0" prefWidth="158.0" text="VISUALIZAR DATOS" />
+   </children>
+</Pane>
